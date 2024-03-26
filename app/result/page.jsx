@@ -38,7 +38,7 @@ export default function Results() {
                 <Loading />
             ) : (
                 <>
-                    <button className="bg-green-600 font-semibold border-2 border-gray-900 hover:bg-green-700 p-3 text-white text-xl rounded-xl shadow-2xl m-3 w-fit ml-[40%]" onClick={generateJSONL}>Download Final Data</button>
+                    <button className="bg-gray-900 font-semibold border-2 border-gray-900 hover:bg-gray-800 p-3 text-white text-xl rounded-xl shadow-2xl m-3 w-fit ml-[40%]" onClick={generateJSONL}>Download Final Data</button>
 
                     <div>
                         <ul>
