@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Task to performed
+![image](https://github.com/IayushCoderJOD/bhabha-ai/assets/86391985/c5622251-f1d8-4f41-8b7d-ee7e6ce5060c)
+
+# SS from App
+![image](https://github.com/IayushCoderJOD/bhabha-ai/assets/86391985/f8c9b5cb-4e7b-41dd-b614-9d6e5981ac73)
+
+
 ## Getting Started
 
 First, run the development server:
