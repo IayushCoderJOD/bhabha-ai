@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from "react";
 import Loading from "../loading";
 import { dummyData } from "../constant/Data";
-import { saveAs } from 'file-saver';
+import { saveAs } from "file-saver";
+
 
 export default function Results() {
     const [loader, setLoader] = useState(true);
