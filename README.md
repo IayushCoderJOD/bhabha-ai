@@ -1,7 +1,7 @@
 
 # Deployed - https://bhabha-ai.vercel.app/
 
-# Task to performed
+# Task to be performed
 ![image](https://github.com/IayushCoderJOD/bhabha-ai/assets/86391985/c5622251-f1d8-4f41-8b7d-ee7e6ce5060c)
 
 # SS from App
