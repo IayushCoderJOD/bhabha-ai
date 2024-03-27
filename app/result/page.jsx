@@ -42,6 +42,16 @@ export default function Results() {
             return a.id - b.id;
         } else if (sortBy === 'question') {
             return a.question.localeCompare(b.question);
+        } else if (sortBy === 'liked') {
+            const likedA = selectedPairs.includes(a.id);
+            const likedB = selectedPairs.includes(b.id);
+            if (likedA && !likedB) {
+                return -1;
+            } else if (!likedA && likedB) {
+                return 1;
+            } else {
+                return 0;
+            }
         }
     });
 
@@ -68,6 +78,7 @@ export default function Results() {
                         >
                             <option value="id">Sort by ID</option>
                             <option value="question">Sort by Question</option>
+                            <option value="liked">Sort by Liked</option>
                         </select>
 
                         <div className=" bg-black w-12 rounded-l-full rounded-r-full h-7" >
