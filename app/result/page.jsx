@@ -52,14 +52,15 @@ export default function Results() {
             ) : (
                 <>
                     <div className="flex justify-evenly items-center mb-3">
+                        <h1 className="text-md">Search any question</h1>
                         <input
                             type="text"
-                            placeholder="Search any question...."
+                            placeholder="Type here..."
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
-                            className="ml-3 top-3 border-2 text-black text-xl shadow-2xl border-black bg-gray-100 px-3 py-2 rounded-md mr-3"
+                            className="ml-3 top-3 border-2 w-[17%] text-black text-lg shadow-2xl border-black bg-gray-100 px-2 py-1 rounded-md mr-3"
                         />
-                        <button className="bg-gray-900 font-semibold border-2 border-gray-900 hover:bg-gray-800 p-3 text-white text-xl rounded-xl shadow-2xl m-3 w-fit ml-[40%]" onClick={generateJSONL}>Download Final Data</button>
+                        <button className="bg-gray-800 font-medium border-2 border-black hover:bg-blue-950 p-2 text-white text-lg rounded-xl shadow-2xl m-3 w-fit ml-[40%]" onClick={generateJSONL}>Download Final Data</button>
                         <select
                             value={sortBy}
                             onChange={(e) => setSortBy(e.target.value)}
