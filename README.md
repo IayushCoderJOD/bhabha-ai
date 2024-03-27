@@ -7,6 +7,10 @@
 # SS from App
 ![image](https://github.com/IayushCoderJOD/bhabha-ai/assets/86391985/f8c9b5cb-4e7b-41dd-b614-9d6e5981ac73)
 
+![image](https://github.com/IayushCoderJOD/bhabha-ai/assets/86391985/940c31bb-f03e-45a3-90d1-173a533e85c0)
+
+
+
 
 ## Getting Started
 
