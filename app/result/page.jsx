@@ -80,7 +80,6 @@ export default function Results() {
                             <option value="question">Sort by Question</option>
                             <option value="liked">Sort by Liked</option>
                         </select>
-
                         <div className=" bg-black w-12 rounded-l-full rounded-r-full h-7" >
                             <div onClick={() => {
                                 setTheme(!theme)
